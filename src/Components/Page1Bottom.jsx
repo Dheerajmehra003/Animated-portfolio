@@ -17,13 +17,12 @@ const Page1Bottom = () => {
   return (
     <div className='max-w-fit'>
     <div className='text-white mt-40 max-w-fit'>
-        <h1 className='text-2xl uppercase font-semibold'>website development</h1>
+        <h1 className='text-2xl uppercase font-semibold'>Skill tech</h1>
         <span className='text-xl text-gray-500'>React js</span>
         <span className='ml-5 text-xl text-gray-500'>Tailwlind</span>
         <span className='ml-5 text-xl text-gray-500'>Material Ui</span>
         <span className='ml-5 text-xl text-gray-500'>Figma</span>
         <span className='ml-5 text-xl text-gray-500'>Framer Motion</span>
-        <span className='ml-5 text-xl text-gray-500'>Gsap</span>
     </div>
     <div>
     <FaReact id='banner' className=' fixed right-24 bottom-20 z-10 size-20 text-[#00D8FF]' />

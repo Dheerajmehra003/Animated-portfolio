@@ -2,11 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
 #page1-in{
     position: relative;
     perspective: 1000px;
 }
 
+#section02{
+    position: relative;
+    perspective: 2000px;
+}
+
 #titltDiv{
     width: fit-content;
+}
+
+.rotateText{
+    transform-origin: 100% 70%;
 }
