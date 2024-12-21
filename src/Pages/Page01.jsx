@@ -36,7 +36,7 @@ const Page01 = () => {
               </h1>  
               <h1 className='text-6xl'>WEBDEVELOPER</h1>
               <h1 className='text-3xl'>
-                To hire
+                fresher
               </h1>
           </div>
          </div>

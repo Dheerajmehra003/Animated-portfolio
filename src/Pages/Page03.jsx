@@ -8,7 +8,7 @@ const Page03 = () => {
       <div> 
         <div className='flex flex-col justify-center items-center'>
          <h1 className='text-6xl uppercase font-bold'>Projects</h1>
-         <span className='text-3xl uppercase text-gray-500'>Here, some of my latest work</span>
+         <span className='text-3xl uppercase text-gray-500'>Here, some of my latest Projects</span>
         </div>
           <Project />
         </div>

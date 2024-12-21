@@ -8,6 +8,7 @@ import project6 from '../assets/dashboard02.png'
 import project7 from '../assets/BasicProject.png'
 import project8 from '../assets/ytclone.png'
 import project9 from '../assets/animated.png'
+import { Link } from 'react-router-dom'
 
 const Project = () => {
     const arr = [
@@ -54,7 +55,9 @@ const Project = () => {
             arr.map((item,index)=>{
                 return(
                     <div key={index} className='bg-gray-500 h-[35vh] rounded-md mt-5 w-[60vh]'>
-                     <img src={item.image} className='h-[100%]' />
+                     <Link to='/project-show'>
+                        <img src={item.image} className='h-[100%]' />
+                     </Link>
                    </div>
                 )
             })

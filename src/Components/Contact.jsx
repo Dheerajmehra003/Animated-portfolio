@@ -8,7 +8,7 @@ const Contact = () => {
     const arr = [
         {
             icon:  <IoPhonePortraitOutline />,
-            info: '8295920415',
+            info: '9911820415',
         },
         {
             icon: <CiMail />,
@@ -41,7 +41,9 @@ const Contact = () => {
                     )
                 })
             }
+            <a href='/Resume.pdf'>
             <button className='border-2 border-white rounded-md w-fit p-2'> Download Resume</button>
+            </a>
             </div>      
         </div>
     </div>
