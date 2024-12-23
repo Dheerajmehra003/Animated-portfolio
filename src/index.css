@@ -20,3 +20,7 @@
 .rotateText{
     transform-origin: 100% 70%;
 }
+
+#hero-section{
+    background-image: url('/background02.png');
+}
