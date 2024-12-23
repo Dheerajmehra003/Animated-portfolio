@@ -1,5 +1,4 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
 import { Header } from '../Components/Header'
 import Page01 from '../Pages/Page01'
 import Page02 from '../Pages/Page02'

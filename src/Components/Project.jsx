@@ -11,7 +11,7 @@ import project9 from '../assets/animated.png'
 import { Link } from 'react-router-dom'
 import data from '../Data/Data.js'
 
-const Project = () => {
+const Project = (props) => {
     // const arr = [
     //     {
     //         title: 'Forever',
