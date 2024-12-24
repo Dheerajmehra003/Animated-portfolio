@@ -22,5 +22,6 @@
 }
 
 #hero-section{
-    background-image: url('/background02.png');
+    background-image: url('/frontend_banner_light.png');
+    background-repeat: no-repeat;
 }

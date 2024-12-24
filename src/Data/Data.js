@@ -172,19 +172,19 @@ const data = [
         image04:netflix04,
         image05:netflix05,
     },
-    {
-        id:'hired',
-        title: 'Hired Web application',
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
-        siteLink:'',
-        gitLink:'',
-        image:hiredclone,
-        image01:forever01,
-        image02:forever02,
-        image03:forever03,
-        image04:forever04,
-        image05:forever05,
-    },
+    // {
+    //     id:'hired',
+    //     title: 'Hired Web application',
+    //     description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
+    //     siteLink:'',
+    //     gitLink:'',
+    //     image:hiredclone,
+    //     image01:forever01,
+    //     image02:forever02,
+    //     image03:forever03,
+    //     image04:forever04,
+    //     image05:forever05,
+    // },
 ]
 
 export default data;

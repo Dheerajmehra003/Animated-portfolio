@@ -3,7 +3,6 @@ import Page1Bottom from '../Components/Page1Bottom'
 import {useGSAP} from '@gsap/react';
 import gsap from 'gsap';
 import Lottie from "lottie-react"
-import profile from './profile.json'
 
 const Page01 = () => {
 
@@ -27,7 +26,7 @@ const Page01 = () => {
     },[xval, yval])
 
   return (
-    <div  className='h-screen p-7 bg-black'>
+    <div  className='h-screen p-7  bg-black'>
         <div  id='hero-section'  className='h-full relative  pt-40 pl-32 w-full rounded-3xl bg-black'>
          <div id='page1-in' onMouseMove={(e)=>{mouseMoving(e)}} className='relative max-w-fit'>
           <div ref={tiltRef} id='titltDiv' className='text-white flex font-semibold flex-col uppercase'>

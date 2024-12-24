@@ -51,7 +51,7 @@ const Project = (props) => {
     //     },
     // ]
   return (
-    <div className='p-5 flex flex-wrap gap-7 mt-10 '>
+    <div className='p-5  flex flex-wrap gap-7 mt-10 '>
         {
             data.map((item,index)=>{
                 return(

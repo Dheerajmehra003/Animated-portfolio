@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectShow from './Pages/ProjectShow'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, ScrollRestoration } from 'react-router-dom'
 import AppLayout from './Layout/AppLayout'
 
 
