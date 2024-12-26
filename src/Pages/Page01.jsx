@@ -26,15 +26,15 @@ const Page01 = () => {
     },[xval, yval])
 
   return (
-    <div  className='h-screen lg:p-7   bg-black'>
-        <div  id='hero-section'  className='lg:h-full relative  lg:pt-40 pt-20 lg:pl-32 pl-16 lg:w-full rounded-3xl bg-black'>
-         <div id='page1-in' onMouseMove={(e)=>{mouseMoving(e)}} className='relative lg:max-w-fit'>
+    <div  className='h-screen p-7  bg-black'>
+        <div  id='hero-section'  className='h-full relative  pt-40 pl-32 w-full rounded-3xl bg-black'>
+         <div id='page1-in' onMouseMove={(e)=>{mouseMoving(e)}} className='relative max-w-fit'>
           <div ref={tiltRef} id='titltDiv' className='text-white flex font-semibold flex-col uppercase'>
-              <h1 className='lg:text-3xl text-md'>
-              I am <span className='lg:text-4xl text-2xl text-gray-600'>frontend</span>
+              <h1 className='text-3xl'>
+              I am <span className='text-4xl text-gray-600'>frontend</span>
               </h1>  
-              <h1 className='lg:text-6xl text-3xl'>WEBDEVELOPER</h1>
-              <h1 className='lg:text-3xl text-md'>
+              <h1 className='text-6xl'>WEBDEVELOPER</h1>
+              <h1 className='text-3xl'>
                 fresher
               </h1>
           </div>
