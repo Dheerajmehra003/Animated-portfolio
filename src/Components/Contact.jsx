@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
     const arr = [
@@ -18,18 +19,20 @@ const Contact = () => {
             info: 'Panchkula, Chandigarh',
         },
     ]
-    const form = useRef();
 
+    const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
     
         emailjs
           .sendForm('service_b04kixh', 'template_p8pm1w6', form.current, {
-            publicKey: 'SAwfA3cczW60aTeOV5xSn',
+            publicKey: 'Kb0Eno69QKgeUVas4',
           })
           .then(
             () => {
               console.log('SUCCESS!');
+              e.target.reset();
+              alert('Email Sent')
             },
             (error) => {
               console.log('FAILED...', error.text);
@@ -42,10 +45,10 @@ const Contact = () => {
         <div className='flex justify-center items-center gap-[30vh]'>
             <div>
                 <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-7'>
-                    <input className='p-1 w-[70vh] rounded-md' type="text" name='your_name' placeholder='Your name...'  />
-                    <input className='p-1 w-[70vh] rounded-md' type="text" name='your_email' placeholder='Email Address...'  />
+                    <input className='p-1 w-[70vh] text-black rounded-md' type="text" name='from_name' placeholder='Your name...'  />
+                    <input className='p-1 w-[70vh] text-black rounded-md' type="text" name='from_email' placeholder='Email Address...'  />
                      <textarea className='p-1 w-[70vh] text-black rounded-md' name="message" placeholder='Enter your message' rows={4}/>
-                     <button className='border-2 border-white hover:bg-gray-800'>Send</button>
+                     <button className='border-2 border-white hover:bg-gray-800' type='submit' value='Send' >Send</button>
                 </form>
             </div>
             <div className='flex flex-col gap-7'>

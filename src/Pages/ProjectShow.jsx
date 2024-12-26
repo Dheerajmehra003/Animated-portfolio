@@ -34,7 +34,7 @@ const ProjectShow = () => {
             <Carousel image={item.image} image01={item.image01} image02={item.image02} image03={item.image03} image04={item.image04} image05={item.image05}/>
             <p key={index} className='text-3xl font-semibold mt-2'>{item.title}</p>
             </div>
-            <div className='mx-16 mt-10  '>
+            <div key={index} className='mx-16 mt-10  '>
             <p className='w-auto mb-5'>{item.description}</p>
             <a className='text-white border-2 mt-5 border-white px-2 py-1 rounded-sm hover:bg-gray-800' target='blank' href={`${item.siteLink}`}>View Site</a>
             <a className='text-white border-2 mt-5 border-white px-2 py-1 rounded-sm hover:bg-gray-800 ml-5' target='blank' href={`${item.gitLink}`}>View Code</a>
