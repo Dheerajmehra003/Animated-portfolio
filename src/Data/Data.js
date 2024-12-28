@@ -58,7 +58,7 @@ const data = [
     {
         id:'forever',
         title: 'Frontend of Ecommerce site - Forever',
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
+        description:'This project is a Frontend Ecommerce website designed to deliver a seamless and engaging online shopping experience. The website was developed with a focus on intuitive design, fast perfomance, and mobile responsiveness, ensuring accessibility for user acrosss devices. I used modern web development tools, including React.js, tailwindcss and javascript to build the frontend, with an emphasis on responsive design and user experience',
         siteLink:'https://forever-ecommerceapp.netlify.app/',
         gitLink:'https://github.com/Dheerajmehra003/Ecommerce-app',
         image:forever,
@@ -71,7 +71,7 @@ const data = [
     {
         id:'shinecake',
         title: 'Frontend of Ecommerce site - Shine Cake House',
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
+        description:'This project is a Frontend Ecommerce website designed to deliver a seamless and engaging online shopping experience. The website was developed with a focus on intuitive design, fast perfomance, and mobile responsiveness, ensuring accessibility for user acrosss devices. I used modern web development tools, including React.js, tailwindcss and javascript to build the frontend, with an emphasis on responsive design and user experience ',
         siteLink:'https://shinecake-ecommerceapp.netlify.app/',
         gitLink:'https://github.com/Dheerajmehra003/Shine-cake-house',
         image:shinecake,
@@ -84,7 +84,7 @@ const data = [
     {
         id:'rentalbro',
         title: 'Figma Design of Ecommerce site - RentalBro',
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
+        description:'Thsi project is a UI/UX design for web application created using figma. The goal was to design a visually appealing, user-friendly interface that sligns with the brands identity while providing an intuitive and engaging experience for users. Starting with in-depth user research, I identified key user needs and pain points, which guided my design decisions. I then created frame and started adding all the images and card which where necessry for an rent application.',
         siteLink:'https://www.figma.com/design/4xsQIo5V2vzaFB0BxDb1fh/Untitled?node-id=140-155',
         gitLink:'https://github.com/Dheerajmehra003?tab=repositories',
         image:rentalbro,
@@ -97,7 +97,7 @@ const data = [
     {
         id:'ochi',
         title: 'Animated site - Ochi',
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
+        description:'This project is an animated website designed to captivate users through smooth, interactive animations while ensuring a seamless and intuitive browsing experience. The website was created with the goal of enhancing user engagement by integrating anmations that not only add visual appeal but also guide users through key actions, such as navigation and content discovery. I utilized modern web technologizes like tailwindcss javascript, react js, gsap to craft dynamic animations and transitions These animations were carefully designed to improve the user journey, providing smooth scroll effects, hover interactions, and page transitions, without compromising performance.  ',
         siteLink:'https://ochi-alpaca-365a40.netlify.app/',
         gitLink:'https://github.com/Dheerajmehra003/Advanced-Project/tree/main/Animated-website',
         image:ochi,
@@ -110,7 +110,7 @@ const data = [
     {
         id:'advance',
         title: 'Advanced Admin Panel - Dashboard',
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
+        description:'This project is an Admin Panel designed to help administrators efficiently manage and monitor various aspects of a web application or platform. The goal was to create a user-friendly and feature -rich interface that allows admins to controland track key data, manage users, and generate reports in a real time, all while ensuring an intuitive and stramlined user experience. The admin panel inculdes interacive dashboards, data visualization, and real-time data updates. I used reactjs , tailwindcs, material ui and calendar library and many more for building this project.',
         siteLink:'https://admin-panel345.netlify.app/',
         gitLink:'https://github.com/Dheerajmehra003/MaterailUi-project',
         image:advanceDashboard,
@@ -123,7 +123,7 @@ const data = [
     {
         id:'simple',
         title: 'Simple Admin panel - Dashboard',
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
+        description:'This project is an Admin Panel designed to help administrators efficiently manage and monitor various aspects of a web application or platform. The goal was to create a user-friendly and feature -rich interface that allows admins to controland track key data, manage users, and generate reports in a real time, all while ensuring an intuitive and stramlined user experience. The admin panel inculdes interacive dashboards, data visualization, and real-time data updates. I used reactjs , tailwindcs, material ui  for building this project.',
         siteLink:'https://basic-panel-8b660a.netlify.app/',
         gitLink:'https://github.com/Dheerajmehra003/MaterialUI-project',
         image:basicDashboard,
@@ -136,7 +136,7 @@ const data = [
     {
         id:'basic',
         title: 'Basic games and application',
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
+        description:'This project collection includes several basic web applications built to showcase my foundation skills in front-end development. These projects include a  calculator , tic tac toe, currency converter and other simple games all crated using html, css and javascript. The goal was to build interactive and engaging applications with clean user interfaces and smooth functionality. Each project allowed me to practice core concepts such as dom manipulation, event handling, conditionals, loops and logic implementation.  ',
         siteLink:'https://effulgent-cassata-4c0220.netlify.app/',
         gitLink:'https://github.com/Dheerajmehra003?tab=repositories',
         image:basicproject,
@@ -149,7 +149,7 @@ const data = [
     {
         id:'ytclone',
         title: 'Youtube Clone',
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
+        description:'This project is a youtube clone designed to replicate the core features of the popular video-sharing platform, providing users with a familiar and engaging video browsing experience. The goal was to recreate essential functionalities like video uploads, viewing, comments, likes, and subscriptions , all while implementing a responsive and intutive user interface. I utilized react js for building the frontend with a focus on creating a smooth, dynamic interface.',
         siteLink:'https://dynamic-youtube-29a91d.netlify.app/',
         gitLink:'https://github.com/Dheerajmehra003/Website-clone/tree/main/Youtube',
         image:ytclone,
@@ -162,7 +162,7 @@ const data = [
     {
         id:'netclone',
         title: 'Netflix Clone',
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum molestiae esse exercitationem dolore nesciunt eaque fuga minus voluptatem molestias, consequuntur excepturi id sint saepe ab vitae repellendus laudantium, ducimus voluptatum quo eligendi similique cumque. Facere ea suscipit voluptatibus, excepturi amet sit debitis nostrum quibusdam, omnis laboriosam neque rerum dolorum.',
+        description:'This project is a netflix clone, where I recreated the core features and user interface of the popular streaming platform. The goal was to build an engaging , dynamic, and fully functional media streamingwebsite, allowing users to browse movies and Tv shows, watch trailers, and manage their profiles all while mimicking the user experience of Netflix. I used modern reactjs , tailwindcss for forntend and used firebase for user authentication and used tmdb movie api for the movies data the project is fully responsive and functioning.',
         siteLink:'https://netfclone-sopapillas-9ecf98.netlify.app/',
         gitLink:'https://github.com/Dheerajmehra003/Website-clone/tree/main/Netflix',
         image:netflixclone,
