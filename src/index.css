@@ -25,3 +25,13 @@
     background-image: url('/frontend_banner_light.png');
     background-repeat: no-repeat;
 }
+
+@media(max-width:768px){
+    
+    #section02{
+        display: none;
+    }
+    /* #hero-section{
+        background-image: none;
+    } */
+}

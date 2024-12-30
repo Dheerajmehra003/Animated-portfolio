@@ -41,21 +41,21 @@ const Contact = () => {
       };
 
   return (
-    <div className='mt-20'>
-        <div className='flex justify-center items-center gap-[30vh]'>
-            <div>
+    <div className='lg:mt-20 mt-10 pb-20 '>
+        <div className='flex flex-wrap justify-center items-center lg:gap-[30vh] gap-10'>
+            <div className='lg:pl-0'>
                 <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-7'>
-                    <input className='p-1 w-[70vh] text-black rounded-md' type="text" name='from_name' placeholder='Your name...'  />
-                    <input className='p-1 w-[70vh] text-black rounded-md' type="text" name='from_email' placeholder='Email Address...'  />
-                     <textarea className='p-1 w-[70vh] text-black rounded-md' name="message" placeholder='Enter your message' rows={4}/>
-                     <button className='border-2 border-white hover:bg-gray-800' type='submit' value='Send' >Send</button>
+                    <input className='p-1 lg:w-[70vh] w-[50vh] text-black rounded-md' type="text" name='from_name' placeholder='Your name...'  />
+                    <input className='p-1 lg:w-[70vh] w-[50vh] text-black rounded-md' type="text" name='from_email' placeholder='Email Address...'  />
+                     <textarea className='p-1 lg:w-[70vh] w-[50vh] text-black rounded-md' name="message" placeholder='Enter your message' rows={4}/>
+                     <button className='border-2 w-[50vh] lg:w-full border-white hover:bg-gray-800' type='submit' value='Send' >Send</button>
                 </form>
             </div>
-            <div className='flex flex-col gap-7'>
+            <div className='flex flex-col lg:gap-7 gap-3'>
             {
                 arr.map((item, index)=>{
                     return(
-                        <div key={index} className='flex gap-3 text-xl  items-center p-2'>
+                        <div key={index} className='flex gap-3 lg:text-xl  items-center p-2'>
                           {item.icon}
                           <span>{item.info}</span>
                         </div>

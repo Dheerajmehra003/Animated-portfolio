@@ -38,12 +38,12 @@ const Carousel = (props) => {
         },
       ]
   return (
-    <div className=' w-3/4 m-auto'>
+    <div className=' lg:w-3/4  w-[50vh] m-auto'>
     <Slider  {...settings}>
         { arr.map((item, index)=>{
             return(
                 <div key={index}>
-                   <img src={item.photo} alt="" />
+                   <img  src={item.photo} alt="" />
                 </div>
             )
         })}
